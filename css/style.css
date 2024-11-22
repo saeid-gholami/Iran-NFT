@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Kalameh";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/WebFonts/_Woff2/KalamehWeb-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Kalameh";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/WebFonts/_Woff2/KalamehWeb-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Kalameh";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/WebFonts/_Woff2/KalamehWeb-Regular.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kalameh";
+}
