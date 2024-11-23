@@ -74,7 +74,7 @@ body {
     width: max-content;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:992px) {
     .bg_dark {
         background-color: #0a162b;
     }
