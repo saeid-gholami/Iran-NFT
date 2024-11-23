@@ -19,12 +19,63 @@
     src: url("../fonts/WebFonts/_Woff2/KalamehWeb-Regular.woff2") format("woff2");
 }
 
+:root {
+    --color-background: #07101D;
+    --color-orange: #FF3C00;
+    --color-text: #949494;
+    --border-00FF1A: 1px solid #00FF1A;
+    --border-5300FF: 1px solid #5300FF;
+    --border-FF1F00: 1px solid #FF1F00;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Kalameh";
+    background-color: var(--color-background);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.color-text {
+    color: var(--color-text);
+}
+
+.border-00FF1A {
+    border: var(--border-00FF1A);
+}
+
+.border-5300FF {
+    border: var(--border-5300FF);
+}
+
+.border-FF1F00 {
+    border: var(--border-FF1F00);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--color-orange) !important;
+    border-bottom: 1px solid var(--color-orange);
+    width: max-content;
+}
+
+@media screen and (max-width:1200px) {
+    .bg_dark {
+        background-color: #0a162b;
+    }
 }
