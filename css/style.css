@@ -227,6 +227,68 @@ header::after {
     height: 81px;
 }
 
+.wallet_box {
+    padding: 1px;
+    height: 188px;
+}
+
+.wallet_box_1 {
+    background-image: linear-gradient(to right bottom, #07101D, #FC280C);
+}
+
+.wallet_box_2 {
+    background-image: linear-gradient(to right bottom, #07101D, #00D1FF);
+}
+
+.wallet_box_3 {
+    background-image: linear-gradient(to right bottom, #07101D, #760AFF);
+}
+
+.wallet_box_4 {
+    background-image: linear-gradient(to right bottom, #07101D, #FE007A);
+}
+
+.wallet_box_5 {
+    background-image: linear-gradient(to right bottom, #07101D, #FFBF1C);
+}
+
+.inner_wallet-box {
+    background-color: #091627;
+}
+
+.corner_wallet-box {
+    width: 43.3px;
+    height: 22.17px;
+    bottom: 0;
+    right: -18px;
+    background-color: var(--color-background);
+    transform: rotate(-52.75deg);
+    -webkit-transform: rotate(-52.75deg);
+    -moz-transform: rotate(-52.75deg);
+    -ms-transform: rotate(-52.75deg);
+    -o-transform: rotate(-52.75deg);
+}
+
+.corner_wallet-box-1 {
+    border-top: 1px solid #FC280C;
+}
+
+.corner_wallet-box-2 {
+    border-top: 1px solid #00D1FF;
+}
+
+.corner_wallet-box-3 {
+    border-top: 1px solid #760AFF;
+}
+
+.corner_wallet-box-4 {
+    border-top: 1px solid #FE007A;
+}
+
+.corner_wallet-box-5 {
+    border-top: 1px solid #FFBF1C;
+}
+
 @media screen and (max-width:992px) {
     .bg_dark {
         background-color: #0a162b;
@@ -277,5 +339,27 @@ header::after {
 
     .main-header-text {
         font-size: 1.1rem !important;
+    }
+
+    .icon_header_container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon_header_container img {
+        width: 40px;
+    }
+
+    .header_title {
+        font-size: 20px !important;
+    }
+
+    .header_subtitle,
+    .arro_text {
+        font-size: 12px !important;
+    }
+
+    .arrow_icon {
+        width: 28px;
     }
 }
