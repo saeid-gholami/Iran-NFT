@@ -168,7 +168,6 @@ header::after {
     background-image: radial-gradient(#3D0D58 58%, #070F1C 0);
     top: -68px;
     right: -121px;
-    -webkit-filter: blur(70px);
     z-index: -1;
 }
 
