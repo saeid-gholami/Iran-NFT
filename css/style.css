@@ -206,7 +206,7 @@ header::after {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
 }
 
 .count_user_img {
@@ -262,5 +262,14 @@ header::after {
 
     .w_70 {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-header-title {
+        font-size: 2rem;
+    }
+    .main-header-text {
+        font-size: 1.1rem !important;
     }
 }
