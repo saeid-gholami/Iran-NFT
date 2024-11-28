@@ -315,10 +315,68 @@ header::after {
     font-family: "Gilroy";
 }
 
+.site__info-box-1 {
+    background: linear-gradient(106.88deg, rgba(0, 255, 26, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+    border: 1px solid #00FF1A
+}
+
+.site__info-box-2 {
+    background: linear-gradient(106.88deg, rgba(74, 1, 224, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+    border: 1px solid #5300FF;
+}
+
+.site__info-box-3 {
+    background: linear-gradient(106.88deg, rgba(255, 19, 4, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+    border: 1px solid #FF1F00
+}
+
+.site__info-box-text {
+    font-weight: 100 !important;
+    font-size: 1.2rem;
+    line-height: 34px;
+}
+
+.site__info-box-label {
+    top: -51px;
+    right: 32px;
+    width: 90px;
+    height: 89px;
+    backdrop-filter: blur(50px);
+    background: #FFFFFF14;
+    border: 1px solid #FFFFFF80;
+}
+
+.trend__box-body {
+    background: #FFFFFF1A;
+    padding-inline: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 5.5rem;
+    font-family: "Gilroy";
+    margin-top: 18rem;
+}
+
+.trend__box-body-image {
+    bottom: 109px;
+    right: 17px;
+    width: 90%;
+}
+
+.top__creators-box {
+    background: #FFFFFF1A;
+    border: 2px solid #FFFFFF33
+}
+
+@media screen and (max-width:1400px) {
+    .trend__box-body {
+        margin-top: 15rem;
+    }
+}
+
 @media screen and (max-width:1200px) {
     .hot__bides-box-info {
-        left:15px
+        left: 15px
     }
+
     .hot__bides-box-info>div {
         font-size: 1rem !important;
     }
@@ -326,6 +384,11 @@ header::after {
     .hot__bides-box-info img {
         width: 25px;
     }
+
+    .trend__box-body {
+        margin-top: 11rem;
+    }
+
 }
 
 @media screen and (max-width:992px) {
@@ -369,6 +432,10 @@ header::after {
     .w_70 {
         width: 70%;
     }
+
+    .trend__box-body {
+        margin-top: 14rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -401,6 +468,7 @@ header::after {
     .arrow_icon {
         width: 28px;
     }
+
     .hot__bides-box-info>div {
         font-size: 1.5rem !important;
     }
@@ -414,4 +482,9 @@ header::after {
         padding: 0.75rem 4.5rem !important;
         font-size: 1.5rem !important;
     }
+
+    .trend__box-body {
+        margin-top: 19rem;
+    }
+
 }
