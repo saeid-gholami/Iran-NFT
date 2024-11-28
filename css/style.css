@@ -40,6 +40,13 @@
     src: url("../fonts/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/WebFonts/_Woff/Gilroy-Bold.woff") format("woff");
+}
+
 :root {
     --color-background: #07101D;
     --color-orange: #FF3C00;
@@ -289,6 +296,38 @@ header::after {
     border-top: 1px solid #FFBF1C;
 }
 
+.hot__bides-box {
+    background-color: #FFFFFF1A;
+}
+
+.hot__bides-box-info {
+    top: 9px;
+    left: 20px;
+}
+
+.hot__bides-box-info div {
+    background: #FFFFFF1A;
+    backdrop-filter: blur(5px);
+}
+
+.hot__bides-box-bottom h5,
+.hot__bides-box-bottom>p {
+    font-family: "Gilroy";
+}
+
+@media screen and (max-width:1200px) {
+    .hot__bides-box-info {
+        left:15px
+    }
+    .hot__bides-box-info>div {
+        font-size: 1rem !important;
+    }
+
+    .hot__bides-box-info img {
+        width: 25px;
+    }
+}
+
 @media screen and (max-width:992px) {
     .bg_dark {
         background-color: #0a162b;
@@ -361,5 +400,18 @@ header::after {
 
     .arrow_icon {
         width: 28px;
+    }
+    .hot__bides-box-info>div {
+        font-size: 1.5rem !important;
+    }
+
+    .hot__bides-box-info img {
+        width: auto;
+        padding: 0.5rem;
+    }
+
+    .box-btn {
+        padding: 0.75rem 4.5rem !important;
+        font-size: 1.5rem !important;
     }
 }
