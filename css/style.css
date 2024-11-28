@@ -197,7 +197,7 @@ header::after {
 
 .main_image_header::after {
     content: "";
-    background-image: url("../images/Path\ \(1\).png");
+    background-image: url("../images/Path1.png");
     width: 68px;
     height: 32px;
     position: absolute;
