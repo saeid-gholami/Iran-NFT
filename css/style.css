@@ -451,6 +451,11 @@ header::after {
     background: linear-gradient(90deg, #9A5BFF 0%, #FF1212 53.12%, #FF7F56 100%) !important;
 }
 
+footer {
+    background-color: #091028;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 @media screen and (max-width:1400px) {
     .trend__box-body {
         margin-top: 15rem;
