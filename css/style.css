@@ -366,6 +366,32 @@ header::after {
     border: 1px solid #FFFFFF80;
 }
 
+.trends__box {
+    margin-top: -100px;
+}
+
+.trends__box-caption {
+    background: #FFFFFF1A;
+    height: 214px;
+}
+
+.trend__box-image-wrapper {
+    transform: translateY(111px);
+    -webkit-transform: translateY(111px);
+    -moz-transform: translateY(111px);
+    -ms-transform: translateY(111px);
+    -o-transform: translateY(111px);
+    width: 90%;
+}
+
+.trend__box-image {
+    width: 90%;
+}
+
+.trends__box-caption-title {
+    padding-top: 7rem;
+}
+
 .top__creators-box {
     background: #FFFFFF1A;
     border: 2px solid #FFFFFF33
