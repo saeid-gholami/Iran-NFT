@@ -1,0 +1,11 @@
+:root {
+    --color-background: #07101D;
+    --color-orange: #FF3C00;
+    --color-text: #949494;
+    --border-00FF1A: 1px solid #00FF1A;
+    --border-5300FF: 1px solid #5300FF;
+    --border-FF1F00: 1px solid #FF1F00;
+    --color_07101D: #07101D;
+    --color-gradient1: linear-gradient(90deg, #7011AD 0%, #BC0505 49.31%, #FC630F 100%);
+
+}

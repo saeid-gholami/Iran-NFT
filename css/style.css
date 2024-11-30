@@ -1,95 +1,11 @@
-@font-face {
-    font-family: "YekanBakh";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/YekanBakh-Heavy.630c4fa4.woff");
-}
-
-@font-face {
-    font-family: "YekanBakh";
-    font-style: normal;
-    font-weight: 500;
-    src: url("../fonts/YekanBakh-Medium.f7360956.woff");
-}
-
-
-/* @font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb-Black.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: bold;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: normal;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: bold;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Kalameh";
-    font-style: normal;
-    font-weight: normal;
-    src: url("../fonts/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: bold;
-    src: url("../fonts/WebFonts/_Woff/Gilroy-Bold.woff") format("woff");
-} */
-
-:root {
-    --color-background: #07101D;
-    --color-orange: #FF3C00;
-    --color-text: #949494;
-    --border-00FF1A: 1px solid #00FF1A;
-    --border-5300FF: 1px solid #5300FF;
-    --border-FF1F00: 1px solid #FF1F00;
-    --color_07101D: #07101D;
-    --color-gradient1: linear-gradient(90deg, #7011AD 0%, #BC0505 49.31%, #FC630F 100%);
-
-}
+@import url(fonts.css);
+@import url(variables.css);
+@import url(assistive.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-input {
-    outline: none;
 }
 
 body {
@@ -122,63 +38,8 @@ header::after {
     z-index: -2;
 }
 
-.w_60 {
-    width: 60%;
-}
-
-.w_40 {
-    width: 40%;
-}
-
-.right_16 {
-    right: 16px;
-}
-
-.top_5 {
-    top: 1rem;
-}
-
-.padding_button {
-    padding-right: 3.5rem;
-}
-
-.color-orange {
-    color: var(--color-orange);
-}
-
-.bg-orange {
-    background-color: var(--color-orange);
-}
-
-.color-text {
-    color: var(--color-text);
-}
-
-.border-00FF1A {
-    border: var(--border-00FF1A);
-}
-
-.border-5300FF {
-    border: var(--border-5300FF);
-}
-
-.border-FF1F00 {
-    border: var(--border-FF1F00);
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
-    color: var(--color-orange) !important;
-    border-bottom: 1px solid var(--color-orange);
-    width: max-content;
-}
-
 .main-header-title {
     font-size: 3.5rem;
-}
-
-.background_gradient1 {
-    background-image: var(--color-gradient1);
 }
 
 .header_main_image {
@@ -241,14 +102,6 @@ header::after {
     height: 45.49px;
 }
 
-.width_54 {
-    width: 54%;
-}
-
-.font_size_24 {
-    font-size: 1.5rem;
-}
-
 .icon_header_container {
     width: 81px;
     height: 81px;
@@ -257,26 +110,6 @@ header::after {
 .wallet_box {
     padding: 1px;
     height: 188px;
-}
-
-.wallet_box_1 {
-    background-image: linear-gradient(to right bottom, #07101D, #FC280C);
-}
-
-.wallet_box_2 {
-    background-image: linear-gradient(to right bottom, #07101D, #00D1FF);
-}
-
-.wallet_box_3 {
-    background-image: linear-gradient(to right bottom, #07101D, #760AFF);
-}
-
-.wallet_box_4 {
-    background-image: linear-gradient(to right bottom, #07101D, #FE007A);
-}
-
-.wallet_box_5 {
-    background-image: linear-gradient(to right bottom, #07101D, #FFBF1C);
 }
 
 .inner_wallet-box {
@@ -294,26 +127,6 @@ header::after {
     -moz-transform: rotate(-52.75deg);
     -ms-transform: rotate(-52.75deg);
     -o-transform: rotate(-52.75deg);
-}
-
-.corner_wallet-box-1 {
-    border-top: 1px solid #FC280C;
-}
-
-.corner_wallet-box-2 {
-    border-top: 1px solid #00D1FF;
-}
-
-.corner_wallet-box-3 {
-    border-top: 1px solid #760AFF;
-}
-
-.corner_wallet-box-4 {
-    border-top: 1px solid #FE007A;
-}
-
-.corner_wallet-box-5 {
-    border-top: 1px solid #FFBF1C;
 }
 
 .hot__bides-box {
@@ -428,10 +241,6 @@ header::after {
     bottom: -27rem;
 }
 
-.bg_07101D {
-    background-color: var(--color_07101D) !important;
-}
-
 .Ellipse_4 {
     filter: blur(50px);
     top: -11%;
@@ -455,107 +264,4 @@ header::after {
 footer {
     background-color: #091028;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-@media screen and (max-width:1200px) {
-    .hot__bides-box-info {
-        left: 15px
-    }
-
-    .hot__bides-box-info>div {
-        font-size: 1rem !important;
-    }
-
-    .hot__bides-box-info img {
-        width: 25px;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .bg_dark {
-        background-color: #0a162b;
-    }
-
-    header::before {
-        display: none;
-    }
-
-    .main-header-title {
-        font-size: 2.5rem;
-    }
-
-    .main_image_header {
-        width: 70%;
-        margin: 0 auto;
-    }
-
-    .count_user_site {
-        width: 217.91px;
-        height: 58.99px;
-        right: -32px;
-    }
-
-    .count_user_img {
-        width: 64.96px;
-        height: auto;
-    }
-
-    .font_size_24 {
-        font-size: 1.1rem;
-    }
-
-    .main_image_header::after {
-        bottom: -3px;
-        left: -38px;
-    }
-
-    .w_70 {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .main-header-title {
-        font-size: 2rem;
-    }
-
-    .main-header-text {
-        font-size: 1.1rem !important;
-    }
-
-    .icon_header_container {
-        width: 60px;
-        height: 60px;
-    }
-
-    .icon_header_container img {
-        width: 40px;
-    }
-
-    .header_title {
-        font-size: 20px !important;
-    }
-
-    .header_subtitle,
-    .arro_text {
-        font-size: 12px !important;
-    }
-
-    .arrow_icon {
-        width: 28px;
-    }
-
-    .hot__bides-box-info>div {
-        font-size: 1.5rem !important;
-    }
-
-    .hot__bides-box-info img {
-        width: auto;
-        padding: 0.5rem;
-    }
-
-    .box-btn {
-        padding: 0.75rem 4.5rem !important;
-        font-size: 1.5rem !important;
-    }
 }
