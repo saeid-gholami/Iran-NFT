@@ -13,7 +13,7 @@
 }
 
 
-@font-face {
+/* @font-face {
     font-family: "Kalameh";
     font-style: normal;
     font-weight: 900;
@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: bold;
     src: url("../fonts/WebFonts/_Woff/Gilroy-Bold.woff") format("woff");
-}
+} */
 
 :root {
     --color-background: #07101D;
