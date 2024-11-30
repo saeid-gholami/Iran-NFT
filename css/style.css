@@ -366,21 +366,6 @@ header::after {
     border: 1px solid #FFFFFF80;
 }
 
-.trend__box-body {
-    background: #FFFFFF1A;
-    padding-inline: 1.5rem;
-    padding-bottom: 0.5rem;
-    padding-top: 5.5rem;
-    font-family: "YekanBakh";
-    margin-top: 18rem;
-}
-
-.trend__box-body-image {
-    bottom: 109px;
-    right: 17px;
-    width: 90%;
-}
-
 .top__creators-box {
     background: #FFFFFF1A;
     border: 2px solid #FFFFFF33
@@ -421,16 +406,6 @@ header::after {
     background-color: var(--color_07101D) !important;
 }
 
-.caption_box_trends {
-    background-color: rgba(255, 255, 255, 0.10);
-    height: 214px;
-    padding-top: 7rem;
-}
-
-.img_box_trend {
-    transform: translateY(103px);
-}
-
 .Ellipse_4 {
     filter: blur(50px);
     top: -11%;
@@ -456,12 +431,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (max-width:1400px) {
-    .trend__box-body {
-        margin-top: 15rem;
-    }
-}
-
 @media screen and (max-width:1200px) {
     .hot__bides-box-info {
         left: 15px
@@ -474,11 +443,6 @@ footer {
     .hot__bides-box-info img {
         width: 25px;
     }
-
-    .trend__box-body {
-        margin-top: 11rem;
-    }
-
 }
 
 @media screen and (max-width:992px) {
@@ -521,10 +485,6 @@ footer {
 
     .w_70 {
         width: 70%;
-    }
-
-    .trend__box-body {
-        margin-top: 14rem;
     }
 }
 
@@ -572,9 +532,4 @@ footer {
         padding: 0.75rem 4.5rem !important;
         font-size: 1.5rem !important;
     }
-
-    .trend__box-body {
-        margin-top: 19rem;
-    }
-
 }
